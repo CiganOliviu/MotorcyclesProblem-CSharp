@@ -1,6 +1,7 @@
 ﻿using System;
 using MotorcycleProblem.DataStructure;
 using MotorcycleProblem.IO;
+using MotorcycleProblem.WinnerPlacesProcessor;
 
 namespace MotorcycleProblem
 {
@@ -8,6 +9,7 @@ namespace MotorcycleProblem
     {
         private static IMotorcycleDataStructure[] _motorcycleDataStructure;
         private static IInputOutputSystem _inputOutputSystem;
+        private static IWinnerPlacesProcessor _winnerPlacesProcessor;
         private static string _pathToFile;
         private static int _numberOfMotorcycles;
         
@@ -20,9 +22,13 @@ namespace MotorcycleProblem
             
             _numberOfMotorcycles = _inputOutputSystem.GetNumberOfMotorcycles(_pathToFile);
             _motorcycleDataStructure = _inputOutputSystem.GetMotorcyclesFromFile(_pathToFile, _numberOfMotorcycles);
+
+            _winnerPlacesProcessor =
+                WinnerPlacesProcessorFactoryObject.GetWinnerPlacesProcessor();
+            
+            _winnerPlacesProcessor.GetMotorcyclesPositionInTable(_numberOfMotorcycles, _motorcycleDataStructure);
             
             _inputOutputSystem.PutsMotorcyclesInConsole(_motorcycleDataStructure);
-
         }
     }
 }

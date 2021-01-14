@@ -29,6 +29,11 @@
         </e>
         <e p="MotorcycleProblem.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
+        <e p="WinnerPlacesProcessor" t="Include">
+          <e p="IWinnerPlacesProcessor.cs" t="Include" />
+          <e p="WinnerPlacesProcessor.cs" t="Include" />
+          <e p="WinnerPlacesProcessorFactoryObject.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

@@ -17,6 +17,32 @@ namespace MotorcycleProblem.IO
             return index;
         }
 
+        public int GetNumberOfCurvesInCircuit(string nameOfFile)
+        {
+            string circuit = System.IO.File.ReadAllText(nameOfFile);
+
+            int index = 0;
+            
+            foreach (var character in circuit)
+                if (character == 's')
+                    index += 1;
+
+            return index;
+        }
+
+        public int GetNumberOfStraightLinesInCircuit(string nameOfFile)
+        {
+            string circuit = System.IO.File.ReadAllText(nameOfFile);
+
+            int index = 0;
+            
+            foreach (var character in circuit)
+                if (character == '_')
+                    index += 1;
+
+            return index;
+        }
+
         public IMotorcycleDataStructure[] GetMotorcyclesFromFile(string nameOfFile, int numberOfMotorcycles)
         {
             IMotorcycleDataStructure[] motorcycles = InitializeArray<MotorcycleDataStructure>(numberOfMotorcycles);
@@ -60,7 +86,6 @@ namespace MotorcycleProblem.IO
 
         public void PutsMotorcyclesInConsole(IMotorcycleDataStructure[] motorcycles)
         {
-
             foreach (var motorcycle in motorcycles)
                 OutputEachFieldOfMotorcycle(motorcycle);
             

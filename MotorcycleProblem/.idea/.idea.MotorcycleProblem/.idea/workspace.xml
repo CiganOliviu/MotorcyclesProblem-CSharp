@@ -30,6 +30,9 @@
       <change afterPath="$PROJECT_DIR$/MotorcycleProblem/IO/IInputOutputSystem.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MotorcycleProblem/IO/InputOutputSystem.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MotorcycleProblem/IO/InputOutputSystemFactoryObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/IWinnerPlacesProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/WinnerPlacesProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/WinnerPlacesProcessorFactoryObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +54,13 @@
         <option value="$PROJECT_DIR$/MotorcycleProblem/IO/GetInputOutputSystemFactoryObject.cs" />
         <option value="$PROJECT_DIR$/MotorcycleProblem/IO/InputOutputSystemFactoryObject.cs" />
         <option value="$PROJECT_DIR$/MotorcycleProblem/Data/motorcycles.txt" />
-        <option value="$PROJECT_DIR$/MotorcyclesProblemTests/UnitTestIOSystem.cs" />
-        <option value="$PROJECT_DIR$/MotorcycleProblem/IO/IInputOutputSystem.cs" />
         <option value="$PROJECT_DIR$/MotorcycleProblem/Program.cs" />
+        <option value="$PROJECT_DIR$/MotorcycleProblem/IO/IInputOutputSystem.cs" />
         <option value="$PROJECT_DIR$/MotorcycleProblem/IO/InputOutputSystem.cs" />
+        <option value="$PROJECT_DIR$/MotorcyclesProblemTests/UnitTestIOSystem.cs" />
+        <option value="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/WinnerPlacesProcessorFactoryObject.cs" />
+        <option value="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/IWinnerPlacesProcessor.cs" />
+        <option value="$PROJECT_DIR$/MotorcycleProblem/WinnerPlacesProcessor/WinnerPlacesProcessor.cs" />
       </list>
     </option>
   </component>
@@ -97,14 +103,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610626883091</updated>
-      <workItem from="1610626904873" duration="7350000" />
+      <workItem from="1610626904873" duration="7992000" />
+      <workItem from="1610651132303" duration="1778000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,35 +123,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1610633635294">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1610639853618">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610633635294" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1610633635294">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610639853618" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1610639853618">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610633635294" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1610633635294">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610639853618" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1610639853618">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610633635294" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1610633635294">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610639853618" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1610639853618">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610633635294" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610639853618" />
     <state x="2511" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1610628166795">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2511" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610628166795" />
-    <state x="2516" y="235" width="789" height="643" key="RiderGenerateDialog" timestamp="1610628007657">
+    <state x="2516" y="235" width="789" height="643" key="RiderGenerateDialog" timestamp="1610651218218">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2516" y="235" width="789" height="643" key="RiderGenerateDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610628007657" />
+    <state x="2516" y="235" width="789" height="643" key="RiderGenerateDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1610651218218" />
     <state x="2579" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610627264009">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
