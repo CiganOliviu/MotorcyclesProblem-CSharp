@@ -1,0 +1,13 @@
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem.deps.json
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem.runtimeconfig.json
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem.runtimeconfig.dev.json
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem.dll
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/bin/Debug/netcoreapp3.1/MotorcycleProblem.pdb
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.csprojAssemblyReference.cache
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.AssemblyInfoInputs.cache
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.AssemblyInfo.cs
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.csproj.CoreCompileInputs.cache
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.dll
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.pdb
+/media/cigan/Personal/GithubProjects/MotorcyclesProblem-CSharp/MotorcycleProblem/MotorcycleProblem/obj/Debug/netcoreapp3.1/MotorcycleProblem.genruntimeconfig.cache
